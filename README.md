@@ -59,7 +59,7 @@ In ``/usr/lib/python3/dist-packages`` you should now have a ``yaml`` and ``numpy
 
 ### Building the simulator
 
-    catkin build dvs_simulator_py
+    catkin_make build dvs_simulator_py
     
 Source your catkin workspace (so that ROS registers the new package ``dvs_simulator_py``):
 
